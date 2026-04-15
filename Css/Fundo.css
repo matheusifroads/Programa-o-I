@@ -1,0 +1,28 @@
+.topo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    background-color: #000080;
+    padding: 10px 20px;
+}
+
+.logo img {
+    height: 40px;
+}
+
+.menu {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.menu li a {
+    text-decoration: none;
+    color: rgb(47, 2, 206);
+    font-weight: bold;
+}
+
+.menu li a:hover {
+    text-decoration: underline;
+}
